@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="TestNG_Tests.GenericVerification">
+        <methods>
+          <include name="Test2_login_to_registry"/>
+          <include name="Test10_check_programID_populating_at_reports_page"/>
+          <include name="Test4_creating_a_task"/>
+          <include name="Test11_masquerade_switch_back"/>
+          <include name="Test7_navigate_again_to_agenda_view"/>
+          <include name="Test8_check_taskID_populating_at_agenda_view"/>
+          <include name="collect_Load_Initialize"/>
+          <include name="generate_report_file"/>
+          <include name="Test3_masquerade_cm_user"/>
+          <include name="Test1_initialization"/>
+          <include name="Test5_Verify_attachment"/>
+          <include name="Test12_logout_and_close"/>
+          <include name="Test9_check_taskID_populating_at_programs_page"/>
+          <include name="Test6_task_details_appearance_on_program_history_page"/>
+          <include name="Test12_delete_CM_task_id"/>
+        </methods>
+      </class> <!-- TestNG_Tests.GenericVerification -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

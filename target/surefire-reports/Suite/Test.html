@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Sep 03 12:33:55 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>534 seconds (534170 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test10_check_programID_populating_at_reports_page()'><b>Test10_check_programID_populating_at_reports_page</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>45</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test11_masquerade_switch_back()'><b>Test11_masquerade_switch_back</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>27</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test12_delete_CM_task_id()'><b>Test12_delete_CM_task_id</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>86</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test1_initialization()'><b>Test1_initialization</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>0</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test2_login_to_registry()'><b>Test2_login_to_registry</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>36</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test3_masquerade_cm_user()'><b>Test3_masquerade_cm_user</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>57</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test4_creating_a_task()'><b>Test4_creating_a_task</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>68</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test5_Verify_attachment()'><b>Test5_Verify_attachment</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>32</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test6_task_details_appearance_on_program_history_page()'><b>Test6_task_details_appearance_on_program_history_page</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>6</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test7_navigate_again_to_agenda_view()'><b>Test7_navigate_again_to_agenda_view</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>112</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test8_check_taskID_populating_at_agenda_view()'><b>Test8_check_taskID_populating_at_agenda_view</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>22</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+<tr>
+<td title='TestNG_Tests.GenericVerification.Test9_check_taskID_populating_at_programs_page()'><b>Test9_check_taskID_populating_at_programs_page</b><br>Test class: TestNG_Tests.GenericVerification</td>
+<td></td>
+<td>18</td>
+<td>TestNG_Tests.GenericVerification@1cf6d1be</td></tr>
+</table><p>
+</body>
+</html>

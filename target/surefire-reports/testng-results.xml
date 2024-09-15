@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T07:03:55Z" name="Suite" finished-at="2024-09-03T07:12:49Z" duration-ms="534170">
+    <groups>
+    </groups>
+    <test started-at="2024-09-03T07:03:55Z" name="Test" finished-at="2024-09-03T07:12:49Z" duration-ms="534170">
+      <class name="TestNG_Tests.GenericVerification">
+        <test-method is-config="true" signature="collect_Load_Initialize()[pri:0, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:03:55Z" name="collect_Load_Initialize" finished-at="2024-09-03T07:04:13Z" duration-ms="18360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collect_Load_Initialize -->
+        <test-method signature="Test1_initialization()[pri:1, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:04:13Z" name="Test1_initialization" finished-at="2024-09-03T07:04:13Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1_initialization -->
+        <test-method signature="Test2_login_to_registry()[pri:2, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:04:13Z" name="Test2_login_to_registry" finished-at="2024-09-03T07:04:50Z" duration-ms="36874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2_login_to_registry -->
+        <test-method signature="Test3_masquerade_cm_user()[pri:3, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:04:50Z" name="Test3_masquerade_cm_user" finished-at="2024-09-03T07:05:47Z" duration-ms="57222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3_masquerade_cm_user -->
+        <test-method signature="Test4_creating_a_task()[pri:4, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:05:47Z" name="Test4_creating_a_task" finished-at="2024-09-03T07:06:55Z" duration-ms="68065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4_creating_a_task -->
+        <test-method signature="Test5_Verify_attachment()[pri:5, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:06:55Z" name="Test5_Verify_attachment" finished-at="2024-09-03T07:07:28Z" duration-ms="32750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5_Verify_attachment -->
+        <test-method signature="Test6_task_details_appearance_on_program_history_page()[pri:6, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:07:28Z" name="Test6_task_details_appearance_on_program_history_page" finished-at="2024-09-03T07:07:35Z" duration-ms="6582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6_task_details_appearance_on_program_history_page -->
+        <test-method signature="Test7_navigate_again_to_agenda_view()[pri:7, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:07:35Z" name="Test7_navigate_again_to_agenda_view" finished-at="2024-09-03T07:09:27Z" duration-ms="112258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test7_navigate_again_to_agenda_view -->
+        <test-method signature="Test8_check_taskID_populating_at_agenda_view()[pri:8, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:09:27Z" name="Test8_check_taskID_populating_at_agenda_view" finished-at="2024-09-03T07:09:50Z" duration-ms="22993" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test8_check_taskID_populating_at_agenda_view -->
+        <test-method signature="Test9_check_taskID_populating_at_programs_page()[pri:9, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:09:50Z" name="Test9_check_taskID_populating_at_programs_page" finished-at="2024-09-03T07:10:08Z" duration-ms="18618" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test9_check_taskID_populating_at_programs_page -->
+        <test-method signature="Test10_check_programID_populating_at_reports_page()[pri:10, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:10:08Z" name="Test10_check_programID_populating_at_reports_page" finished-at="2024-09-03T07:10:54Z" duration-ms="45909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test10_check_programID_populating_at_reports_page -->
+        <test-method signature="Test11_masquerade_switch_back()[pri:11, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:10:54Z" name="Test11_masquerade_switch_back" finished-at="2024-09-03T07:11:22Z" duration-ms="27496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test11_masquerade_switch_back -->
+        <test-method signature="Test12_delete_CM_task_id()[pri:12, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:11:22Z" name="Test12_delete_CM_task_id" finished-at="2024-09-03T07:12:49Z" duration-ms="86753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test12_delete_CM_task_id -->
+        <test-method is-config="true" signature="generate_report_file()[pri:0, instance:TestNG_Tests.GenericVerification@1cf6d1be]" started-at="2024-09-03T07:12:49Z" name="generate_report_file" finished-at="2024-09-03T07:12:49Z" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generate_report_file -->
+      </class> <!-- TestNG_Tests.GenericVerification -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
