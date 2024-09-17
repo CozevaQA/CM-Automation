@@ -228,16 +228,16 @@ public class GenericFunctions {
 			return false;
 		}
 		
-		driver.findElement(By.xpath(xpaths.getProperty("account_section"))).click();
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		
+		try {Thread.sleep(500);} catch (InterruptedException e) {e.printStackTrace();
 		}
+		
 		try {
+			driver.findElement(By.xpath(xpaths.getProperty("account_section"))).click();
 			driver.findElement(By.xpath(xpaths.getProperty("users_option"))).click();
 		} catch (ElementClickInterceptedException e) {
 			Thread.sleep(2000);
+			driver.findElement(By.xpath(xpaths.getProperty("account_section"))).click();
 			driver.findElement(By.xpath(xpaths.getProperty("users_option"))).click();
 		}
 		
